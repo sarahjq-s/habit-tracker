@@ -9,7 +9,7 @@ function minus(){
 }
 
 function plus(){
-    count = count + 1;
+    count += 1;
     countEl.textContent = count;
 }
 
@@ -22,4 +22,6 @@ function save(){
 
 function reset(){
     saveEl.textContent = ""
+   countEl.textContent = 0
+    count = 0
 }
