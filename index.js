@@ -3,8 +3,9 @@ let countEl = document.getElementById("count-el")
 let count = 0
 
 function minus(){
-    count = count - 1;
-    countEl.textContent = count;
+   if (count > 0){
+    count -= 1
+    countEl.textContent = count
 }
 
 function plus(){
